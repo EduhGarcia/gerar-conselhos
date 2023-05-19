@@ -42,6 +42,7 @@ body{
 }
 
 .icone{
+    cursor: pointer;
     position: absolute;
     display: flex;
     background-color: var(--color-text-especial);
