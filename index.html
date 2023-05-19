@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de conselhos</title>
 
-    <link rel="stylesheet" href="src/reset.css">
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="shortcut icon" href="src/imagens/favicon-32x32.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="shortcut icon" href="./src/imagens/favicon-32x32.ico" type="image/x-icon">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
@@ -19,18 +19,17 @@
     <main>
         <div class="container">
             <div class="mensagem">
-                <p class="cor-especial espacamento fonte">adivice #233</p>
-                <p class="espacamento">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ullam nisi facilis consectetur temporibus, non eum repellat magnam</p>
+                <p class="cor-especial titulo">adivice #233</p>
+                <p id="conselho"></p>
             
-
-                <img src="src/imagens/pattern-divider-desktop.svg" alt="linha que divide a mensagem e o icone"
-                width="230" class="espacamento">
+                <img src="./src/imagens/pattern-divider-desktop.svg" alt="linha que divide a mensagem e o icone"
+                width="280">
             </div>
             <div class="icone">
-                <img src="src/imagens/icon-dice.svg" alt="icone final da mensagem" class="cor-especial">
+                <img id="btn-conselho" src="./src/imagens/icon-dice.svg" alt="icone final da mensagem" class="cor-especial">
             </div>
-
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

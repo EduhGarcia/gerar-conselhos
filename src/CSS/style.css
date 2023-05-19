@@ -11,14 +11,16 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 
-.fonte{
-    font-size: 13px;
+.titulo{
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 .container{
+    position: relative;
     display: flex;
     background-color: var(--color-card);
-    width: 300px;
+    width: 400px;
     height: 250px;
     align-items: center;
     flex-direction: column;
@@ -26,6 +28,11 @@ body{
 }
 
 .mensagem{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     color: var(--text-color);
 }
@@ -35,15 +42,17 @@ body{
 }
 
 .icone{
+    position: absolute;
     display: flex;
     background-color: var(--color-text-especial);
     padding: 15px;
     border-radius: 50%;
-    margin-top: 20px;
+    bottom: -28px;
 }
 
-.espacamento{
-    margin-top: 20px;
+#conselho{
+    max-width: 90%;
+    font-size: 20px;
 }
 
 main{
